@@ -77,18 +77,27 @@
     display: flex;
     flex-direction: column;
     gap: 20px;
-    font-size: 1.8rem;
+    font-size: 1.5rem;
     width: 50%;
-    font-weight: 700;
+    font-weight: 400;
     padding-left: 120px;
 }
 .logo-final{
-    display: flex;
-    gap: 5px;
-    justify-content: end;
+    gap: 10px;
     padding-right: 50px;
+    overflow: hidden;
+    position: fixed;
+    grid-area: content;
+    z-index: 1;
+    right: 16px;
+    bottom: 16px;
     
     
+    
+}
+.link-back{
+    display: flex;
+    gap: 10px;
 }
 .logo-amarelo{
     width: 40px;
@@ -104,4 +113,7 @@
     width: 40px;
     height: 40px;
     background-color: red;
+}
+.titulo{
+    color: white;
 }
