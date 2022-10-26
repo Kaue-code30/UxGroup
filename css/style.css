@@ -9,6 +9,7 @@ body{
     font-family: 'Ubuntu', sans-serif;
     grid-template-areas:
      "content";
+    
 
 }
 header{
@@ -26,6 +27,7 @@ header{
     justify-content: space-between;
     align-items: center;
     place-self: start center;
+    
 }
 main{
   background-color: #000000;
@@ -44,11 +46,12 @@ section{
 
 .fulfilment{
     width: 100%;
-    background-color: #ff0000;
+   background-color: #212121;
+    
 }
 .solutions{
     width: 100%;
-    background-color: #0000ff;
+    background-color: #212121;
 }
 .delivery{
     width: 100%;

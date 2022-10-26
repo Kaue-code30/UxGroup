@@ -1,0 +1,22 @@
+.solutions{
+    display: flex;
+    flex-direction: column;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    padding-top: 8%;
+    padding-left: 90px;
+}
+.Ux-azul{
+    color: #0000ff;
+}
+.section_title{
+    display: flex;
+    align-items: center;
+    font-size: 4rem;
+    gap: 10px;
+    color: #ffffff;
+}
+.chave{
+    transform: rotate(270deg);
+}
