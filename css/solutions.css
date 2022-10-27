@@ -6,10 +6,12 @@
     gap: 50px;
     padding-top: 8%;
     padding-left: 90px;
+    border-bottom: 3px solid black;
 }
 .Ux-azul{
     color: #0000ff;
 }
+
 .section_title{
     display: flex;
     align-items: center;
@@ -19,4 +21,47 @@
 }
 .chave{
     transform: rotate(270deg);
+}
+.subtitulo{
+    font-size: 2rem;
+    color: #ffffff;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    color: #ffffff;
+    font-size: 1.5rem;
+    width: 85%;
+    gap: 40px;
+}
+.text__image{
+    display: flex;
+    gap: 150px;
+   
+
+}
+.pai{
+    display: flex;
+    flex-direction: column;
+    gap: 30%;
+}
+.text_pai{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.text__image{
+    
+    padding-right: 8%;
+}
+.botao_solutions{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 500;
+    width: 300px;
+    border-radius: 10px;
+    height: 60px;
+    background-color: #0000ff;
+    color: #ffffff;
 }
