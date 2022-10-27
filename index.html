@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="animate.min.css">
     <link rel="stylesheet" href="./css/solutions.css">
     <link rel="stylesheet" href="./css/delivery.css">
+    <link rel="stylesheet" href="./css/contato.css">
 
 
     <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
@@ -25,7 +26,7 @@
 <body>
     
     <header>
-        <div class="logo">
+        <div class="logo" id="header">
             UX.
             <div class="logo_simbolo">
                 <div class="amarelo"></div>
@@ -33,35 +34,6 @@
                 <div class="vermelho"></div>
             </div>
         </div>
-        <nav>
-            <ul class="menu">
-                <li>
-                    <i>
-                        <a href="#home">Inicio</a>
-                    </i>
-                </li>
-                <li>
-                    <i>
-                        <a href="#Fulfilment">Fulfilment</a>
-                    </i>
-                </li>
-                <li>
-                    <i>
-                        <a href="#Solutions">Solutions</a>
-                    </i>
-                </li>
-                <li>
-                    <i>
-                        <a href="#Delivery">Delivery</a>
-                    </i>
-                </li>
-                <li>
-                    <i>
-                        <a href="#contato">Contato</a>
-                    </i>
-                </li>
-            </ul>
-        </nav>
     </header>
 
     <main>
@@ -96,9 +68,11 @@
             </div>
             <div class="logo-final">
                 <a href="#" class="link-back">
-                    <div class="logo-amarelo"></div>
-                    <div class="logo-azul"></div>
-                    <div class="logo-vermelho"></div>
+                    <div class="logo-cinza"><a class="in" href="#" title="Inicio"></a></div>
+                    <div class="logo-amarelo"><a class="in" href="#Fulfilment" title="Fulfilment"></a></div>
+                    <div class="logo-azul"><a class="in" href="#Solutions" title="Solutions"></a></div>
+                    <div class="logo-vermelho"><a class="in" href="#Delivery" title="Delivery"></a></div>
+                    <div class="logo-cinza"><a class="in" href="#contato" title="Contato"></a></div>
                 </a>
             </div>
 
@@ -121,10 +95,11 @@
                             <p class="text">
                                 Fazemos toda a sua operação com inteligência e velocidade para que o produto esteja armazenado de forma correta e proativa.
                             </p>
+                            <div class="botao_fulfilment"> <a href="https://uxff.com.br/"><p><i class="fas fa-arrow-circle-right"></i> Venhar saber mais sobre nós.</p></a></div>
                         </div>
-                        <div class="botao_fulfilment"> <a href="https://uxff.com.br/"><p><i class="fas fa-arrow-circle-right"></i> Venhar saber mais sobre nós.</p></a></div>
+                        
                     </div>
-                    <img class="image" src="./css/img/spencer-davis-a_4tgP1t6Y0-unsplash 1.png" alt="">
+                    <img class="image_logic" src="./css/img/Logistics-cuate.png" alt="">
                 </div>
             </div>
 
@@ -149,10 +124,11 @@
                                 Através de nossas tecnologias você pode fazer com que seu e-commerce  
                                 tenha uma ótima evolução, para a realização de uma expertise em seus fretes.
                             </p>
+                            <div class="botao_solutions">
+                                <a href="https://uxsolutions.com.br/"><p><i class="fas fa-arrow-circle-right"></i> Venhar saber mais sobre nós.</p></a>
+                            </div>
                         </div>
-                        <div class="botao_solutions">
-                            <a href="https://uxsolutions.com.br/"><p><i class="fas fa-arrow-circle-right"></i> Venhar saber mais sobre nós.</p></a>
-                        </div>
+                        
                     </div>
                     <img class="image" src="./css/img/Security On-rafiki 1.png" alt="">
                     <div></div>
@@ -178,15 +154,39 @@
                             <p class="textt">
                                 Com a nossa gestão de transporte você consegue fazer com que as entregas cheguem em até 24H
                             </p>
-                        </div>
-                        <div class="botao_delivery"> <a href="https://uxdelivery.com.br/"><p><i class="fas fa-arrow-circle-right"></i> Venhar saber mais sobre nós.</p></a></div>
+                            <div class="botao_delivery"> <a href="https://uxdelivery.com.br/"><p><i class="fas fa-arrow-circle-right"></i> Venhar saber mais sobre nós.</p></a></div>
+                        </div>                     
                     </div>
-                    <img class="image" src="./css/img/Logistics-rafiki 1.png" alt="">
+                    <img class="image-delivery" src="./css/img/Delivery-cuate.png" alt="">
                 </div>
             </div>
 
         </section>
         <section class="contato" id="contato">
+           
+            <h1 class="title__contato">Nossas Redes</h1>
+            <div class="icons_somosux">
+                <div class="icons">
+                    <div class="icon_linkedin"><a href="https://br.linkedin.com/company/uxgroup"><i class="fab fa-linkedin"></i></a></div>
+                    <div class="icon_instagram"><a href="https://www.instagram.com/uxgroup_/"><i class="fab fa-instagram"></i></a></div>
+                    <div class="icon_youtube"><a href="https://www.youtube.com/channel/UCzgk7wIIwM3IUQeBQxz7big"><i class="fab fa-youtube"></i></a></div>
+
+                </div>
+                <div class="somos_ux_contato" id="home">
+                    
+                    <p><span class="ux-azul">UX.</span></p>
+                    <p>Somos <span class="ux-amarelo">UX.</span></p>
+                    <p><span class="ux-vermelho"> UX.</span></p>
+            
+                </div>
+                <img src="./css/img/image 1.png" alt="">
+            </div>
+            <div class="direitos">
+                
+                <p class="text_direitos">
+                    Kauê Lima|Todos os direitos reservados|2022
+                </p>
+            </div>
 
         </section>
     </main>

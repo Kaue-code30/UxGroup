@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: column;
     gap: 50px;
-    padding-top: 8%;
+    padding-top: 5%;
     padding-left: 90px;
     box-shadow: inset 0px 20px 20px #212121;
     border-bottom: 3px solid black;
@@ -14,10 +14,10 @@
     align-items: center;
     font-size: 4rem;
     gap: 10px;
-    color:yellow; ;
+    color:#eab828 ;
 }
 .Ux-amarelo{
-    color: yellow;
+    color: #eab828;
 }
 .section__subtitle__text{
     display: flex;
@@ -66,10 +66,11 @@
     width: 300px;
     border-radius: 10px;
     height: 60px;
-    background-color: yellow;
+    background-color: #eab828;
     color: #000000;
 }
-.image{
-    width: 80%;
+.image_logic{
+    
+    width: 40%;
     height: 100%;
 }
