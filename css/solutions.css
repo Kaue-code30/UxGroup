@@ -40,14 +40,14 @@
    
 
 }
-.pai{
+.pai_{
     display: flex;
-    flex-direction: column;
+    
     gap: 60px;
 }
 .text_pai{
     display: flex;
-    flex-direction: column;
+    
     gap: 60px;
 }
 .text__image{

@@ -3,14 +3,14 @@
     flex-direction: column;
     padding-top: 5%;
     padding-left: 100px;
-    gap: 20%;
+    gap: 10%;
 
 }
 
 .icons_somosux{
     display: flex;
     align-items: center;
-    gap: 15%;
+   
 }
 .somos_ux_contato{
     display: flex;
@@ -19,6 +19,14 @@
     color: #ffffff;
     font-weight: 700;
     font-size: 4rem;
+}
+.classp{
+    display: flex;
+    padding-left: 200px;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+     
 }
 
 .title__contato{
@@ -83,7 +91,7 @@
 }
 .direitos{
     display: flex;
-    padding-top: 4%;
+    padding-top: 12%;
     justify-content: center;
     align-items: flex-end;
     color: #ffffff;

@@ -1,7 +1,7 @@
 :root{
-    --primary-color: #ff0000;
-    --secundary-color:#0000ff;
-    --third-color:yellow;
+    --primary-color: #d12222;
+    --secundary-color:#1f65fc;
+    --third-color:hsl(45, 91%, 54%);
 }
 
 body{
