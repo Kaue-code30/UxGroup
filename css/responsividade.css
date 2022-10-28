@@ -137,7 +137,7 @@ main{
 @media(max-width:640px){
 
     .home{
-        height: 90vh;
+        height: 200vh;
         gap: 80px;
     }
     .images{
@@ -146,7 +146,7 @@ main{
         justify-content: flex-end;
         align-items: flex-end;
         padding-left: 180px;
-        gap: 250px;
+        gap: 150px;
         font-size: 4.5rem;
     }
     .texts{
@@ -158,13 +158,47 @@ main{
     }
 
     .fulfilment{
-        height: 70vh;
+        height: 140vh;
     }
     .title{
-        font-size: 4.5rem;
+        font-size: 4rem;
     }
     .text{
         width: 100%;
     }
 
+    .solutions{
+        height: 140vh;
+    }
+    .pai_{
+        display: flex;
+        flex-direction: column;
+    }
+    .title_solutions{
+        font-size: 4rem;
+    }
+    .subtitulo{
+        font-size: 1.5rem;
+    }
+    .delivery{
+        height: 140vh;
+    }
+    .contato{
+        height: 140vh;
+        
+    }
+    .classp{
+        display:flex ;
+        gap: 80px;
+        align-items: center;
+        justify-content: start;
+        font-size: 1rem;
+       
+    }
+    .somos_ux_contato{
+        font-size: 3rem;
+    }
+    .logo_contato{
+        width: 40%;
+    }
 }
