@@ -1,8 +1,6 @@
 .solutions{
     display: flex;
     flex-direction: column;
-    display: flex;
-    flex-direction: column;
     gap: 50px;
     padding-top: 5%;
     padding-left: 90px;
