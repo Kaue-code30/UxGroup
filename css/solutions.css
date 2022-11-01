@@ -40,6 +40,7 @@
 }
 .pai_{
     display: flex;
+    flex-direction: row;
     gap: 60px;
 }
 .text_pai{
@@ -61,4 +62,9 @@
     height: 60px;
     background-color: #407bff;
     color: #000000;
+}
+.image{
+    
+    width: 40%;
+    height: 100%;
 }

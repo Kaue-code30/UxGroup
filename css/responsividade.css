@@ -247,11 +247,11 @@
         font-size: 0.9rem;
     }
 
-   .image{
-        display: flex;
-        width: 60%;
-        height: 100%;
-    }
+   .image_logic{
+    
+    width: 40%;
+    height: 100%;
+}
 
 
 
