@@ -338,9 +338,56 @@
         width: 60%;
         height: 100%;
     }
+
+
+
    .contato{
-       display: none;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-direction: column;
+        padding-top: 0;
+        padding-left: 0px;
+        gap: 10px;
    }
+   .icons_somosux{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+    }
+    .somos_ux_contato{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: flex-end;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 2rem;
+    }
+    .classp{
+    display: flex;
+    flex-direction: column;
+    padding-left: 0px;
+    padding-top: 100px;
+    justify-content: space-around;
+    align-items: center;
+    gap: 50px;
+     
+    }
+    .title__contato{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 2rem;
+        gap: 10px;
+        color:#ffffff;
+    }
+    .logo_contato{
+        display: flex;
+        width: 60%;
+        height: 100%;
+    }
    
 
     
