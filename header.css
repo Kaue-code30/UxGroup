@@ -17,18 +17,21 @@ header{
 }
 
 .amarelo{
+    animation-duration: 2s;
     width: 35px;
     height: 35px;
     background-color: var(--third-color);
     
 }
 .azul{
+    animation-duration: 3s;
     width: 35px;
     height: 35px;
     background-color: var(--secundary-color);
 }
 
 .vermelho{
+    animation-duration: 4s;
     width: 35px;
     height: 35px;
     background-color: var(--primary-color);
